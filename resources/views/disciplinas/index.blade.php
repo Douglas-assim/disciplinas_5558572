@@ -1,5 +1,8 @@
 <ul>
 @foreach ($disciplinas as $disciplina)
-	<li>{{ $disciplina->titulo}} </li>
+	<li>
+		<a href="/disciplinas/{{$disciplina->id}}">
+		{{ $disciplina->titulo}} 
+	</li>
 @endforeach
 </ul>
