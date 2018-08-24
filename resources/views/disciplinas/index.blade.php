@@ -1,3 +1,6 @@
+
+
+
 <ul>
 @foreach ($disciplinas as $disciplina)
 	<li>
@@ -6,3 +9,4 @@
 	</li>
 @endforeach
 </ul>
+<a href="/disciplinas/create">cadastrar disciplina</a>
